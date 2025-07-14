@@ -2,7 +2,7 @@
 // 문제 데이터 (예시 문제.txt 기반)
 const quizData = [
   {
-    question: '1. 다음 단어의 뜻을 구별해 주는 요소로 알맞지 않은 것은?',
+    question: '1. 다음 그림을 보고 알맞지 않은 음운 구별 요소를 고르세요.<br><img src="images/01.png" alt="문제1 그림" style="max-width:180px; display:block; margin:16px auto;">',
     choices: [
       '곰, 솜 - 자음',
       '종, 공 - 자음',
@@ -13,7 +13,7 @@ const quizData = [
     answer: 5
   },
   {
-    question: '2. 국어의 음운에 대한 설명으로 적절하지 않은 것은?',
+    question: '2. 다음 그림을 참고하여 국어의 음운에 대한 설명으로 적절하지 않은 것을 고르세요.<br><img src="images/02.png" alt="문제2 그림" style="max-width:180px; display:block; margin:16px auto;">',
     choices: [
       '음운의 종류에는 자음과 모음이 있다.',
       '말의 뜻을 구별해 주는 소리의 단위이다.',
@@ -59,7 +59,7 @@ const quizData = [
   ,
   // 추가 문제 1
   {
-    question: '1. 단어에 사용된 음운의 개수가 잘못 연결된 것은?',
+    question: '6. 단어에 사용된 음운의 개수가 잘못 연결된 것은?',
     choices: [
       '누나 - 4개',
       '까꿍 - 6개',
